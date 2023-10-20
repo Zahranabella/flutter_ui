@@ -27,7 +27,11 @@ class MyApp extends StatelessWidget {
           },
         ),
       ),
-      theme: ThemeData(brightness: Brightness.dark),
+      theme: ThemeData(
+          primarySwatch: Colors.red,
+          textTheme: const TextTheme(
+              bodyMedium: TextStyle(fontSize: 12, fontStyle: FontStyle.italic)),
+          brightness: Brightness.light),
     );
   }
 }
