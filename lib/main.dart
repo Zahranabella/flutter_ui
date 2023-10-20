@@ -18,7 +18,12 @@ class MyApp extends StatelessWidget {
           padding: const EdgeInsets.all(50),
           decoration: const BoxDecoration(
             color: Colors.lightGreen,
-            shape: BoxShape.circle,
+            shape: BoxShape.rectangle,
+            borderRadius: BorderRadius.only(
+              topRight: Radius.elliptical(50, 50),
+              topLeft: Radius.circular(20),
+              bottomRight: Radius.elliptical(25, 25),
+            ),
           ),
           child: const Text('Container'),
         ),
