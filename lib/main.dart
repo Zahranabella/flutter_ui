@@ -13,11 +13,8 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Flutter UI Succinctly'),
         ),
-        body: const Center(
-          child: Text(
-            'Our first Flutter layout',
-            style: TextStyle(fontSize: 24),
-          ),
+        body: Container(
+          color: Colors.lightBlue,
         ),
         floatingActionButton: FloatingActionButton(
           child: const Icon(Icons.ac_unit),
