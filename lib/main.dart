@@ -14,7 +14,12 @@ class MyApp extends StatelessWidget {
           title: const Text('Flutter UI Succinctly'),
         ),
         body: Container(
+          margin: const EdgeInsets.all(100),
+          padding: const EdgeInsets.all(50),
+          width: 300,
+          height: 300,
           color: Colors.lightBlue,
+          child: const Text('Container'),
         ),
         floatingActionButton: FloatingActionButton(
           child: const Icon(Icons.ac_unit),
