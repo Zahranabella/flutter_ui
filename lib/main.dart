@@ -16,9 +16,10 @@ class MyApp extends StatelessWidget {
         body: Container(
           margin: const EdgeInsets.all(100),
           padding: const EdgeInsets.all(50),
-          width: 300,
-          height: 300,
-          color: Colors.lightBlue,
+          decoration: const BoxDecoration(
+            color: Colors.lightGreen,
+            shape: BoxShape.rectangle,
+          ),
           child: const Text('Container'),
         ),
         floatingActionButton: FloatingActionButton(
