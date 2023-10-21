@@ -17,14 +17,13 @@ class MyApp extends StatelessWidget {
           margin: const EdgeInsets.all(100),
           padding: const EdgeInsets.all(50),
           decoration: const BoxDecoration(
-            color: Colors.lightGreen,
-            shape: BoxShape.rectangle,
-            borderRadius: BorderRadius.only(
-              topRight: Radius.elliptical(50, 50),
-              topLeft: Radius.circular(20),
-              bottomRight: Radius.elliptical(25, 25),
-            ),
-          ),
+              color: Colors.lightGreen,
+              shape: BoxShape.rectangle,
+              borderRadius: BorderRadius.only(
+                topRight: Radius.elliptical(50, 50),
+                topLeft: Radius.circular(20),
+                bottomRight: Radius.elliptical(25, 25),
+              )),
           child: const Text('Container'),
         ),
         floatingActionButton: FloatingActionButton(
